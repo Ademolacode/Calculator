@@ -71,7 +71,7 @@ var input_var=document.getElementById('input');
 var xyz= input_var.value;
 if (xyz.length > 0)
 {
-xyz=xyz.substring(0, x.length-1);
+xyz=xyz.substring(0, xyz.length-1);
 input_var.value=xyz;
 }
 }
